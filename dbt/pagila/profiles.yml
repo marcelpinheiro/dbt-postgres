@@ -1,0 +1,24 @@
+pagila:
+  outputs:
+
+    dev:
+      type: postgres
+      threads: 1
+      host: localhost
+      port: 5432
+      user: postgres
+      pass: '123456'
+      dbname: pagila
+      schema: public
+
+    prod:
+      type: postgres
+      threads: 1
+      host: localhost
+      port: 5432
+      user: postgres
+      pass: '123456'
+      dbname: dbt_pagila
+      schema: public
+
+  target: dev

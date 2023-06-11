@@ -1,0 +1,38 @@
+
+
+============================== 2023-06-10 23:10:33.484138 | ca0f441b-57da-49dc-b7a5-39d3c97dab0e ==============================
+[0m23:10:33.484138 [info ] [MainThread]: Running with dbt=1.4.5
+[0m23:10:33.485909 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/marcel/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m23:10:33.486037 [debug] [MainThread]: Tracking: tracking
+[0m23:10:33.586923 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d57a3a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d57a160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d57a820>]}
+[0m23:10:33.588052 [info ] [MainThread]: Creating dbt configuration folder at /Users/marcel/.dbt
+[0m23:10:47.266794 [debug] [MainThread]: Starter project path: /usr/local/Cellar/dbt-redshift/1.4.0/libexec/lib/python3.9/site-packages/dbt/include/starter_project
+[0m23:10:50.151837 [info ] [MainThread]: Profile pagila written to /Users/marcel/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m23:10:50.152187 [info ] [MainThread]: 
+Your new dbt project "pagila" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:10:50.152457 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b7183a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d89dfa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d89d550>]}
+[0m23:10:50.152698 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-06-10 23:12:51.893198 | b194e1ef-67e2-441a-9518-1925c302ba02 ==============================
+[0m23:12:51.893198 [info ] [MainThread]: Running with dbt=1.4.5
+[0m23:12:51.894358 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/marcel/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m23:12:51.894481 [debug] [MainThread]: Tracking: tracking
+[0m23:12:51.936872 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110f889d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110f88a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110f88af0>]}
+[0m23:12:56.100865 [info ] [MainThread]: A project called pagila already exists here.
+[0m23:12:56.102221 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110f88b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110f887c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110f88d00>]}
+[0m23:12:56.102801 [debug] [MainThread]: Flushing usage events
