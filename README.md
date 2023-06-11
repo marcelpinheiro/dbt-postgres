@@ -19,11 +19,11 @@ Also, a seed is included with Covid-19 data from us counties. </br>
 </br>
 <h2>DBT</h2>
 Install dbt:
-<pre><code>pip install dbt-postgres</pre><code>
+<pre><code>pip install dbt-postgres</code></pre>
 Run DBT models:
-<pre><code>dbt run</pre><code>
+<pre><code>dbt run</code></pre>
 Run seed:
-<pre><code>dbt seed</pre><code>
+<pre><code>dbt seed</code></pre>
 
 
 
